@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+}
+nav{
+    background-color: rgb(163, 237, 237);
+    overflow: hidden;
+}
+nav a{
+    float: left;
+    padding: 14px 16px;
+    display: block;
+    text-decoration: none;
+}
+a:hover{
+    background-color: antiquewhite;
+    color:black;
+}
+
+img{
+    margin: 0px;
+    width: 100%;
+    height:800px;
+}
+h1{
+    font-style: italic;
+}
+p{
+    text-align: justify;
+    font-style: italic;
+    font-size: 20px;
+}
+iframe{
+    padding:10px;
+    margin: 0px 0px;
+    transition: transform 0.5s ease;
+}
+/* .iframe:hover{
+    transform: scale(1.1);
+} */
+.p{
+    font-size: 50px;
+}
+
+.img2{
+    height: 200px;
+    width: 200px;
+    padding-top: 0px;
+    margin: 10px;
+    margin-left:450px;
+}
+
+/* .img2:hover{
+    color:black;
+    border-color: black;
+} */
+
+.container2{
+    /* margin-top: 50px; */
+    padding-left: 10x;
+    background-color: antiquewhite;
+    margin: 50px 20px 50px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(7, 7, 234, 0.1);
+    transition: transform 0.5s ease;
+}
+
+.container2:hover:hover{
+    transform: scale(1.02);
+    box-shadow: 2px 4px 40px rgb(20, 5, 12);
+}
+
+.maps{
+    margin-top: 50px 0px 50px 0px;
+}
+
+.card{
+    /* margin: 50px 50px 50px 100px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto; /* Center the card horizontally */
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+    padding: 40px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    box-shadow:  4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+/* 
+.form{
+    background-color: aquamarine;
+} */
+.form-group{
+    font-size: 18px;
+    margin: 20px;
+    text-align: left;
+}
+.btn{
+    text-align: left;
+    margin: 10px;
+    width: 200px;
+}
+
+footer {
+    background-color: rgb(163, 237, 237);
+    padding: 20px 0;
+    text-align: center;
+  }
